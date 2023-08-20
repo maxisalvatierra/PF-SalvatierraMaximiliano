@@ -1,0 +1,15 @@
+header{
+    background-color: $color-fondo-secundario;
+    color: $color-fuentes;
+    font-size: 20px;
+
+    .logo {
+        width: 100px;
+        transition: all 4s;
+    }
+
+        .logo:hover {   
+            width: 200px;
+        
+        }
+    }
