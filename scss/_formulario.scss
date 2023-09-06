@@ -1,0 +1,36 @@
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+.formulario {
+    display: block;
+    margin: 0.5rem 0;
+}
+h1, p {
+        margin: 1em auto;
+        text-align: center;
+}
+input, textarea {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+
+}
+
+ .botonForm {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: black;
+    border-color: white;
+    min-width: 300px;
+    color: gray;
+  }
+
+

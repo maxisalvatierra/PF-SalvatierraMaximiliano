@@ -36,7 +36,8 @@ h1 {
 }
 
 .botonComprar {
-    background-color: $color-botones;
+    color: black;
+    background-color: $color-fondo-secundario;
     @include anclas;
     text-transform: uppercase;
     padding: 5px 10px;
@@ -46,3 +47,29 @@ h1 {
         background-color: $color-fondo-secundario;
     }
 }
+
+.tarjetaPrecio{
+    width: auto;
+}
+
+
+.imagenGaleria {
+  border-radius: 10px;
+  padding: 4px;
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(50%);
+}
+.imagenGaleria:hover {
+  filter: grayscale(0%);
+}
+
+@media (max-width: 767px) {
+  .imagenGaleria {
+    max-width: 90%;
+    margin: auto;
+  }
+  .tituloPrincipal {
+    display: none;
+  }
+}  

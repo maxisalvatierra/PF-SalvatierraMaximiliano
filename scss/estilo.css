@@ -15,10 +15,12 @@ header {
   color: #2c2b2b;
   font-size: 20px;
 }
+
 header .logo {
   width: 100px;
   transition: all 4s;
 }
+
 header .logo:hover {
   width: 200px;
 }
@@ -31,6 +33,7 @@ header .logo:hover {
   font-weight: bold;
   padding: 1rem;
 }
+
 .titulo .titulo h2 {
   font-size: 3rem;
 }
@@ -40,6 +43,7 @@ h1 {
   position: relative;
   padding: 0 5px;
 }
+
 h1::before {
   content: "";
   position: absolute;
@@ -53,8 +57,7 @@ h1::before {
 }
 
 .botonComprar {
-  color: black;
-  background-color: #8c8c8c;
+  background-color: white;
   font-size: 20px;
   text-decoration: none;
   text-transform: uppercase;
@@ -62,75 +65,20 @@ h1::before {
   border-radius: 4px;
   font-weight: bold;
 }
+
 .botonComprar:hover {
   background-color: #8c8c8c;
 }
 
-.tarjetaPrecio {
-  width: auto;
-}
-
-.imagenGaleria {
-  border-radius: 10px;
-  padding: 4px;
-  max-width: 100%;
-  height: auto;
-  filter: grayscale(50%);
-}
-
-.imagenGaleria:hover {
-  filter: grayscale(0%);
-}
-
-@media (max-width: 767px) {
-  .imagenGaleria {
-    max-width: 90%;
-    margin: auto;
-  }
-  .tituloPrincipal {
-    display: none;
-  }
-}
 footer {
   background-color: #b5b5b5;
-  max-width: 100%;
-  max-height: 100%;
 }
 
-form {
-  width: 60vw;
-  max-width: 500px;
-  min-width: 300px;
-  margin: 0 auto;
-  padding-bottom: 2em;
-}
-
-.formulario {
+.formularioContenedor {
   display: block;
-  margin: 0.5rem 0;
+  background-color: #b5b5b5;
 }
 
-h1, p {
-  margin: 1em auto;
-  text-align: center;
-}
 
-input, textarea {
-  margin: 10px 0 0 0;
-  width: 100%;
-  min-height: 2em;
-}
-
-.botonForm {
-  display: block;
-  width: 60%;
-  margin: 1em auto;
-  height: 2em;
-  font-size: 1.1rem;
-  background-color: black;
-  border-color: white;
-  min-width: 300px;
-  color: gray;
-}
 
 /*# sourceMappingURL=estilo.css.map */
